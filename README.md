@@ -20,12 +20,15 @@ A ideia do projeto é verificar tentativas de login, separar os acessos realizad
 - Identifica IPs com três ou mais tentativas malsucedidas.
 - Exibe alertas na interface quando encontra essas situações.
 
+<<<<<<< HEAD
 ## Resultado do projeto
 
 Esta é a interface desenvolvida para o SecureLog Analyzer:
 
 ![Interface do SecureLog Analyzer](imagens/interface.png)
 
+=======
+>>>>>>> 9ea33f60fe2126bc15e92f435d0c93d120bf013d
 ## Como executar o projeto
 
 Primeiro, é necessário ter o Python instalado no computador.
@@ -46,7 +49,11 @@ Com o servidor iniciado, abra o navegador e acesse:
 
 http://127.0.0.1:5000
 
+<<<<<<< HEAD
 Na página, clique em **Analisar registros** para visualizar os dados do arquivo `backend/logs.txt`.
+=======
+Na página, clique em **Analisar registros** para visualizar os dados do arquivo `logs.txt`.
+>>>>>>> 9ea33f60fe2126bc15e92f435d0c93d120bf013d
 
 ## Organização dos arquivos
 
@@ -62,9 +69,12 @@ SecureLog-Analyzer/
 │   ├── style.css
 │   └── script.js
 │
+<<<<<<< HEAD
 ├── imagens/
 │   └── interface.png
 │
+=======
+>>>>>>> 9ea33f60fe2126bc15e92f435d0c93d120bf013d
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -78,4 +88,8 @@ Durante a criação, pude trabalhar com leitura de arquivos, estruturas condicio
 
 Ainda pretendo melhorar o projeto e adicionar novas funcionalidades conforme avanço nos meus estudos.
 
+<<<<<<< HEAD
 **Observação:** os registros utilizados são fictícios e servem apenas para testes. A identificação de três falhas é um critério de demonstração e não confirma uma invasão.
+=======
+**Observação:** os registros utilizados são fictícios e servem apenas para testes. A identificação de três falhas é um critério de demonstração e não confirma uma invasão.
+>>>>>>> 9ea33f60fe2126bc15e92f435d0c93d120bf013d
