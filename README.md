@@ -24,7 +24,7 @@ A ideia do projeto é verificar tentativas de login, separar os acessos realizad
 
 Esta é a interface desenvolvida para o SecureLog Analyzer:
 
-![Interface do SecureLog Analyzer](imagens/interface.png)
+![Interface do SecureLog Analyzer](imagem/interface.png)
 
 ## Como executar o projeto
 
