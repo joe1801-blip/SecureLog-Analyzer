@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureLog Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <header class="topo">
+            <div class="marca">
+                <span class="icone">S</span>
+                <div>
+                    <h1>SecureLog Analyzer</h1>
+                    <p>Painel de análise de registros</p>
+                </div>
+            </div>
+            <span class="status"><span class="bolinha"></span> Painel local</span>
+        </header>
+
+        <section class="resumo">
+            <article class="cartao sucesso">
+                <p>Logins realizados</p>
+                <strong id="total-sucessos">—</strong>
+                <span>Registros com sucesso</span>
+            </article>
+            <article class="cartao falha">
+                <p>Logins com falha</p>
+                <strong id="total-falhas">—</strong>
+                <span>Registros malsucedidos</span>
+            </article>
+            <article class="cartao total">
+                <p>Total de registros</p>
+                <strong id="total-registros">—</strong>
+                <span>Linhas válidas analisadas</span>
+            </article>
+        </section>
+
+        <section class="painel">
+            <div class="cabecalho-secao">
+                <div>
+                    <h2>Registros de acesso</h2>
+                    <p>Endereços IP e resultado de cada tentativa</p>
+                </div>
+                <button id="botao-analisar">Analisar registros</button>
+            </div>
+
+            <div class="tabela-area">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Endereço IP</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-registros">
+                        <tr><td colspan="2" class="vazio">Clique em “Analisar registros” para carregar os dados.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="painel alertas">
+            <div class="cabecalho-secao">
+                <div>
+                    <h2>Alertas de segurança</h2>
+                    <p>IPs com três ou mais tentativas malsucedidas</p>
+                </div>
+            </div>
+            <div id="lista-alertas" class="lista-alertas">
+                <p class="vazio">Nenhuma análise realizada.</p>
+            </div>
+        </section>
+
+        <p id="mensagem" class="mensagem" role="status"></p>
+        <footer>SecureLog Analyzer · Projeto acadêmico · Registros fictícios</footer>
+    </main>
+</body>
+</html>
